@@ -40,15 +40,20 @@ a {
 #section-home .content {
   text-align: center;
   margin: auto;
+ 
+
+  
 
 }
 .content.logo {
   padding: 150px;
+  
 }
 
 .content {
   max-width: 1200px;
   margin: auto;
+  
 }
 
 div{
@@ -58,7 +63,11 @@ div{
 #logo{
   width: 25rem;
   max-width: 100%;
+
+  max-width: 100%;
+  border-radius: 250px;
 }
+
 #my-titles {
   padding-left: 0%;
   padding-top: 30px;
@@ -90,7 +99,9 @@ ul{
 }
 li{
   display: list-item;
-  text-align:center;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
   font-size: 15px;
 }
 
@@ -130,7 +141,7 @@ h2{
   text-align-last: start !important;
 }
 
-#profile-pic {
+#profile-pic {    
   width: 15rem;
   padding: 30px 0;
   margin: auto;
@@ -156,25 +167,19 @@ h2{
 footer{
   display: block;
   background-color: #ffd8f5;
-  block-size: 100px;
-  margin-top: 10px;
- 
+  block-size: 45px;
+  padding: 25px;
 }
 
 p{
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
   font-size: 15px;
 }
 
 
-#section-home .outer-container {
-  margin-top: 0;
-  background: #aa4b9c;
-  background: -webkit-linear-gradient(top, #ffd8f5, #f959cc);
-  background: linear-gradient(top,#ffd8f5, #f959cc;
-  padding: 0;
-}
+
+
