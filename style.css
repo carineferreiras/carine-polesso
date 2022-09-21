@@ -71,6 +71,14 @@ div{
   list-style: armenian;
   margin-bottom: 20px;
 }
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
 ul{
   display: block;
   list-style-type: disc;
@@ -93,23 +101,33 @@ h1{
   font-size: 40px;
   margin-bottom: 40px;
   text-align: center;
-  color: #ffd8f5;
+  color: #cc337a;
   font-weight: bold;
   display: block;
   margin-block-start: 0px;
   margin-inline-end: 0px;
-  margin-top: 100px;
+  margin-top: 10 0px;
 }
 h2{
   font-size: 40px;
   margin-bottom: 40px;
   text-align: center;
   display: block;
+  color: #cc337a;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
 }
 
 #profile-pic {
@@ -137,7 +155,9 @@ h2{
 }
 footer{
   display: block;
-  
+  background-color: #ffd8f5;
+  block-size: 100px;
+  margin-top: 10px;
  
 }
 
