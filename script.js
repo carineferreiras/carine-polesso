@@ -1,3 +1,13 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+let imagemDoLogo;
+
+function preload(){
+    imagemDoLogo=loadImage("file:///Users/carineferreiradasilva/Documents/logo.png")
+}
+
+function setup() {
+  createCanvas(500, 400);
+}
+
+function draw() {
+  background(imagemDaEstrada);
+}
