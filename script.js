@@ -9,5 +9,5 @@ function setup() {
 }
 
 function draw() {
-  background(imagemDaEstrada);
+  background(imagemDoLogo);
 }
