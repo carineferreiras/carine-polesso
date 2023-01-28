@@ -13,93 +13,115 @@
       </head>
 </head>
   <body>
-    <section id="section-home" class="outer-container">
-      <nav>
-        <div class="content">
-          <a href="index.html">Home</a>
-          <a href="#section-aboutme">About Me</a>
-          <a href="#section-myskills">Skills</a>
-          <a href="#section-contact">Contact Me</a>
+    <!-- Nav Bar -->
+      <nav id="nav">
+        <div id="nav-bar">
+        <div class="nav-content">
+        <img id="logo" src="images/logo.png" alt="Logo">
+          <a href="section-aboutme">About</a>
+          <a href="section-myskills">Skills</a>
+          <a href="section-contact">Contact</a>
+        </div>
         </div>
       </nav>
-      <div class="content logo">
-        <img id="logo" src="file:///Users/carineferreiradasilva/Documents/logo.png" alt="Logo">
-        <h1> Personal Portfolio</h1>
-        <div class="my-titles-container">
-            <p>Full Stack Software Engineer</p>
-            <p>Branded Fashion Designer</p>
-        </div>
+     
+
+    <!-- Header -->
+
+      <section id="header">
+      <div class="wrapper">
+        <header>
+          <div class="header-container">
+            <div class="header-text">
+              <h2>Hi there, Welcome!</h2>
+              <p>I am a Full Stack Software Engineer</p>
+            </div>
+            <img src="images/smaller size copy.jpeg" alt="Picture" />
+          </div>
+        </header>
       </div>
     </section>
-    <section id="section-aboutme" class="outer-container">
-      <div class="content">
-        <h2>About Me</h2>
-        <div id="profile-pic">
-          <img src="file:///Users/carineferreiradasilva/Downloads/IMG_3696.JPG" alt="Picture of Carine">
-        </div>
-        <p>
-          Hi there, Welcome!
-          I'm a Software Engineer with a Branded Fashion Design background.
-        </p>
-        <p>
-          Combining my design and development skills I strive to build clean, minimalistic technology that facilitates people.
-        </p>
-        
-      </div>
-    </section>
-    <section id="sectionmy-skills">
-      <div class="outer-container">
-          <div class="content">
-              <h2 id="my-skills">Skills</h2>
-              <ul class="skills-list">
+  
+
+       <!-- Skills -->
+      <section id="skills">
+        <div class="wrapper">
+          <div class="skills">
+            <h2 id="subheading">Skills</h2>
+            <ul class="skills-list">
                   <li>
-                      <img class="fa-solid fa-code"></i>" <alt="HTML logo">
+                      <img src="images/html.png" alt= " HTML logo">
                       <p>HTML</p>
                   </li>
                   <li>
-                      <img src="./images/skills/css-3-logo-svgrepo-com.svg" alt="CSS logo">
+                      <img src="./images/css.png" alt="CSS logo">
                       <p>CSS</p>
                   </li>
                   <li>
-                      <img src="./images/skills/javascript-logo-svgrepo-com.svg" alt="JavaScript logo">
+                      <img src="./images/js.png" alt="JavaScript logo">
                       <p>JavaScript</p>
                   </li>
                   <li>
-                      <img src="./images/skills/git-icon-logo-svgrepo-com.svg" alt="Git logo">
+                      <img src="./git.png" alt="Git logo">
                       <p>Git</p>
                   </li>
                   <li>
-                      <img src="./images/skills/react-2.svg" alt="React.js logo">
+                      <img src="./images/react.png" alt="React.js logo">
                       <p>React.js</p>
-                  </li>
-                  <li>
-                      <img src="./images/skills/ruby.svg" alt="Ruby logo">
-                      <p>Ruby</p>
                   </li>
               </ul>
           </div>
       </div>
   </section>
-    <section id="section-contact" class="outer-container">
-      <h2>Find me</h2>
-      <div class="content">
-        <ul id="contact-list">
-          <li>
-            <span><a href="mailto:carine.silvaf1@gmail.com" target="blank">Email Me</a></span>
-          </li>
-          <li>
-            <span><a href="https://linkedin.com/in/carine-ferreira-da-silva/" target="_blank">LinkedIn</a></span>
-          </li>
-          <li>
-            <span><a href="https://github.com/carineferreiras" target="_blank">GitHub</a></span>
-          </li>
-        </ul>
-      </div>
-    </section>
 
-    <footer>
-      <p>Designed and developed by Carine Ferreira da Silva © 2022</p>
-    </footer>
-    
+    <!-- Footer -->
+    <section id="footer">
+      <div class="wrapper">
+        <footer>
+          <h2>Thanks for sticking around! Please feel free to reach out</h2>
+          <!-- Footer links -->
+          <div id="footer-links">
+            <!-- Work links -->
+            <div id="work">
+              <h3>WORK</h3>
+              <ul class="work">
+                <li>
+                  <a href="https://github.com/carineferreiras" target="_blank"
+                    ><i class="fa-brands fa-github"></i>GitHub</a
+                  >
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://linkedin.com/in/carine-ferreira-da-silva/"
+                      ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
+                    >
+                  </li>
+                </li>
+              </ul>
+            </div>
+     <!-- Contact links -->
+     <div id="contact">
+      <h3>REACH OUT</h3>
+      <ul class="contact">
+        <li>
+          <a href="mailto:carine.silvaf1@gmail.com"
+            ><i class="fa-solid fa-envelope"></i>Email</a
+          >
+        </li>
+        <li>
+          <a href="tel:+61451159424"
+            ><i class="fa-solid fa-phone"></i>Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
   </body>
 </html>
