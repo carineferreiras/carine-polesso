@@ -32,6 +32,11 @@ a {
   cursor: pointer;
 
   }
+
+h4 {
+  font-size: small;
+}
+
   #logo {
     width: 200px;;
     height: 200px;
@@ -190,7 +195,7 @@ footer h2 {
   padding: auto;
 }
 
-footer h3 {
+footer h4 {
   margin-bottom: 0.5em;
 }
 
@@ -217,6 +222,7 @@ footer a {
   color: #0A3A3F;
 }
 
-footer h3 {
+footer h4 {
   color: #FFB1A5;
+ 
 }
